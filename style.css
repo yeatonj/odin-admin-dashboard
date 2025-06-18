@@ -40,6 +40,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding-left: var(--main-left-pad);
+    height: 100px;
 }
 
 .welcome {
@@ -73,6 +74,7 @@ li {
     grid-template-columns: 1fr 5fr;
     gap: 20px;
     padding: 0px;
+    align-items: center;
 }
 
 .proj-container .card {
@@ -130,4 +132,14 @@ input {
     border-radius: 5px;
     padding: 2px 5px 2px 5px;
     color: var(--secondary-one);
+}
+
+form button {
+    background-color: transparent;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 10px;
 }
