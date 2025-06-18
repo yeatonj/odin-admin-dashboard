@@ -18,7 +18,7 @@
                 <ul>
                     <li>
                         <p>Icon</p>
-                        <p>Dasboard</p>
+                        <p>Dashboard</p>
                     </li>
                 </ul>
             </div>
@@ -72,8 +72,12 @@
 
         <div class="header">
             <!-- includes search bar and top icons -->
-             <div class="search">
-                Search Bar
+             <div class="search-container">
+                <form action="/search.placeholder" method="get">
+                    <label for="search" hidden>Search</label>
+                    <button type="submit">Icon</button>
+                    <input type="text" name="search" id="search">
+                </form>
              </div>
 
              <div class="user">
@@ -163,7 +167,7 @@
             <div class="right-sidebar">
                 <div class="announcements">
                     <h2>Announcements</h2>
-                    <div class="ann-container">
+                    <div class="announce-container">
                         <div class="announcement">
                             <h4>Announcement 1</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur</p>
