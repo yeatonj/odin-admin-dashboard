@@ -91,6 +91,11 @@ li {
     padding: 0px;
     align-items: center;
     height: 36px;
+    border-radius: 9px;
+}
+
+.sidebar>* ul li:hover {
+    background-color: var(--primary-one);
 }
 
 .sidebar>* ul li img{
