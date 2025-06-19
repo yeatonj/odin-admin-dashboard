@@ -41,6 +41,7 @@
     grid-template-columns: 2fr 1fr;
     padding-left: var(--main-left-pad);
     height: 60px;
+    z-index: 20;
 }
 
 .header .user {
@@ -59,6 +60,8 @@
     height: 60px;
     align-items: center;
     padding-right: 60px;
+    box-shadow: 0px 1px 3px var(--secondary-one);
+    z-index: 10; /* to get shadow */
 }
 
 .content {
